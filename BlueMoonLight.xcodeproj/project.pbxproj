@@ -12,6 +12,14 @@
 		014A02061D3C4B78007F93A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A02041D3C4B78007F93A1 /* Main.storyboard */; };
 		014A02081D3C4B78007F93A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014A02071D3C4B78007F93A1 /* Assets.xcassets */; };
 		014A020B1D3C4B78007F93A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A02091D3C4B78007F93A1 /* LaunchScreen.storyboard */; };
+		014A02131D3C4BC1007F93A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 014A02121D3C4BC1007F93A1 /* GoogleService-Info.plist */; };
+		014A021F1D3CD80C007F93A1 /* ForDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A021E1D3CD80C007F93A1 /* ForDate.swift */; };
+		0164C9A71D44215D00D904B9 /* DetailsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164C9A61D44215D00D904B9 /* DetailsTableVC.swift */; };
+		0164C9A91D52DC0D00D904B9 /* FriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164C9A81D52DC0D00D904B9 /* FriendItem.swift */; };
+		01C1FC401D41C97D00171B42 /* AddTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1FC3F1D41C97D00171B42 /* AddTableView.swift */; };
+		01C1FC421D41C99F00171B42 /* ListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1FC411D41C99F00171B42 /* ListTableView.swift */; };
+		01C1FC521D430E8000171B42 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C1FC511D430E8000171B42 /* Employee.swift */; };
+		769C797678D3913A97FD519D /* Pods_BlueMoonLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE246698B3CA90E90A103217 /* Pods_BlueMoonLight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +27,19 @@
 		014A02001D3C4B78007F93A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014A02021D3C4B78007F93A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		014A02051D3C4B78007F93A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		014A02071D3C4B78007F93A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		014A02071D3C4B78007F93A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BlueMoonLight/Assets.xcassets; sourceTree = "<group>"; };
 		014A020A1D3C4B78007F93A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		014A020C1D3C4B78007F93A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014A020C1D3C4B78007F93A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlueMoonLight/Info.plist; sourceTree = "<group>"; };
+		014A02121D3C4BC1007F93A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		014A021E1D3CD80C007F93A1 /* ForDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForDate.swift; path = BlueMoonLight/ForDate.swift; sourceTree = "<group>"; };
+		0164C9A61D44215D00D904B9 /* DetailsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableVC.swift; sourceTree = "<group>"; };
+		0164C9A81D52DC0D00D904B9 /* FriendItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendItem.swift; sourceTree = "<group>"; };
+		01C1FC3F1D41C97D00171B42 /* AddTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableView.swift; sourceTree = "<group>"; };
+		01C1FC411D41C99F00171B42 /* ListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView.swift; sourceTree = "<group>"; };
+		01C1FC511D430E8000171B42 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		BF466508A98EBA71413A208D /* Pods-BlueMoonLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueMoonLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueMoonLight/Pods-BlueMoonLight.release.xcconfig"; sourceTree = "<group>"; };
+		C28CF3DE74CB78FBF06781BF /* Pods-BlueMoonLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueMoonLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueMoonLight/Pods-BlueMoonLight.debug.xcconfig"; sourceTree = "<group>"; };
+		EE246698B3CA90E90A103217 /* Pods_BlueMoonLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueMoonLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769C797678D3913A97FD519D /* Pods_BlueMoonLight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +57,13 @@
 		014A01F41D3C4B78007F93A1 = {
 			isa = PBXGroup;
 			children = (
+				01C1FC431D41C9B700171B42 /* View */,
+				01C1FC3B1D41C8E700171B42 /* Company */,
+				01C1FC4E1D430D9A00171B42 /* Model */,
 				014A01FF1D3C4B78007F93A1 /* BlueMoonLight */,
 				014A01FE1D3C4B78007F93A1 /* Products */,
+				E202F5F9CE81FD4FA12C0048 /* Pods */,
+				44C5409EEA71D3E6203B6AA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,59 @@
 		014A01FF1D3C4B78007F93A1 /* BlueMoonLight */ = {
 			isa = PBXGroup;
 			children = (
+				014A02121D3C4BC1007F93A1 /* GoogleService-Info.plist */,
 				014A02001D3C4B78007F93A1 /* AppDelegate.swift */,
 				014A02021D3C4B78007F93A1 /* ViewController.swift */,
-				014A02041D3C4B78007F93A1 /* Main.storyboard */,
-				014A02071D3C4B78007F93A1 /* Assets.xcassets */,
-				014A02091D3C4B78007F93A1 /* LaunchScreen.storyboard */,
-				014A020C1D3C4B78007F93A1 /* Info.plist */,
 			);
 			path = BlueMoonLight;
+			sourceTree = "<group>";
+		};
+		01C1FC3B1D41C8E700171B42 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				01C1FC3F1D41C97D00171B42 /* AddTableView.swift */,
+				01C1FC411D41C99F00171B42 /* ListTableView.swift */,
+				0164C9A81D52DC0D00D904B9 /* FriendItem.swift */,
+				0164C9A61D44215D00D904B9 /* DetailsTableVC.swift */,
+				014A021E1D3CD80C007F93A1 /* ForDate.swift */,
+			);
+			name = Company;
+			sourceTree = "<group>";
+		};
+		01C1FC431D41C9B700171B42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				014A02041D3C4B78007F93A1 /* Main.storyboard */,
+				014A02091D3C4B78007F93A1 /* LaunchScreen.storyboard */,
+				014A02071D3C4B78007F93A1 /* Assets.xcassets */,
+				014A020C1D3C4B78007F93A1 /* Info.plist */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		01C1FC4E1D430D9A00171B42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01C1FC511D430E8000171B42 /* Employee.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		44C5409EEA71D3E6203B6AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE246698B3CA90E90A103217 /* Pods_BlueMoonLight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E202F5F9CE81FD4FA12C0048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C28CF3DE74CB78FBF06781BF /* Pods-BlueMoonLight.debug.xcconfig */,
+				BF466508A98EBA71413A208D /* Pods-BlueMoonLight.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 014A020F1D3C4B78007F93A1 /* Build configuration list for PBXNativeTarget "BlueMoonLight" */;
 			buildPhases = (
+				1AFB1DD3B01E0B0C07777ED0 /* [CP] Check Pods Manifest.lock */,
 				014A01F91D3C4B78007F93A1 /* Sources */,
 				014A01FA1D3C4B78007F93A1 /* Frameworks */,
 				014A01FB1D3C4B78007F93A1 /* Resources */,
+				F42C149355B1837D4CF8CD39 /* [CP] Embed Pods Frameworks */,
+				4E55ACFFB648EC30CA0524BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				014A020B1D3C4B78007F93A1 /* LaunchScreen.storyboard in Resources */,
+				014A02131D3C4BC1007F93A1 /* GoogleService-Info.plist in Resources */,
 				014A02081D3C4B78007F93A1 /* Assets.xcassets in Resources */,
 				014A02061D3C4B78007F93A1 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +203,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AFB1DD3B01E0B0C07777ED0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E55ACFFB648EC30CA0524BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueMoonLight/Pods-BlueMoonLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42C149355B1837D4CF8CD39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueMoonLight/Pods-BlueMoonLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		014A01F91D3C4B78007F93A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				014A02031D3C4B78007F93A1 /* ViewController.swift in Sources */,
+				01C1FC421D41C99F00171B42 /* ListTableView.swift in Sources */,
+				0164C9A91D52DC0D00D904B9 /* FriendItem.swift in Sources */,
 				014A02011D3C4B78007F93A1 /* AppDelegate.swift in Sources */,
+				01C1FC521D430E8000171B42 /* Employee.swift in Sources */,
+				01C1FC401D41C97D00171B42 /* AddTableView.swift in Sources */,
+				0164C9A71D44215D00D904B9 /* DetailsTableVC.swift in Sources */,
+				014A021F1D3CD80C007F93A1 /* ForDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +276,7 @@
 				014A02051D3C4B78007F93A1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = BlueMoonLight;
 			sourceTree = "<group>";
 		};
 		014A02091D3C4B78007F93A1 /* LaunchScreen.storyboard */ = {
@@ -157,6 +285,7 @@
 				014A020A1D3C4B78007F93A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = BlueMoonLight;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,6 +376,7 @@
 		};
 		014A02101D3C4B78007F93A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28CF3DE74CB78FBF06781BF /* Pods-BlueMoonLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlueMoonLight/Info.plist;
@@ -258,6 +388,7 @@
 		};
 		014A02111D3C4B78007F93A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF466508A98EBA71413A208D /* Pods-BlueMoonLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlueMoonLight/Info.plist;
@@ -286,6 +417,7 @@
 				014A02111D3C4B78007F93A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
